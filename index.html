@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+                    <!-- Fontawesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                    <!-- main css file    -->
+     <link rel="stylesheet" href="css/new.css">                
+    
+</head>
+<body>
+     <div class="container">
+            <h2>Create New Account</h2>
+    
+           <form action="login.html">
+           <label for="name">Full Name</label>
+           
+           <div class="user">
+           <input id="name" type="text" required>
+           <i class="fa-solid fa-user"></i>
+           </div>
+           <br>
+           <label for="mail">Email</label>
+           <div class="email">
+            <input id="mail" type="email" required>
+            <i class="fa-solid fa-envelope"></i>
+           </div>
+           <br>
+           <label for="pass1">Password</label>
+            <div class="pass1">
+             <input id="pass1" type="password" required>
+             <div class="lock"><i class="fa-solid fa-lock"></i></div>
+            </div> 
+           <br>
+           <label for="pass2">Confirm Password</label>
+           <div class="pass2">
+             <input id="pass2" type="password" required>
+             <div class="lock"><i class="fa-solid fa-lock"></i></div>
+            </div> 
+
+           <p>I already have an account? - <a href="login.html">Log-in</a></p>
+        <div class="btn">
+            <button type="submit">Register</button>
+             <button type="reset">Cancel</button>
+        </div>
+           
+        </form>
+        
+     </div>
+</body>
+</html>
